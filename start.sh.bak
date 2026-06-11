@@ -1,5 +1,5 @@
 #!/bin/sh
-tor --RunAsDaemon 1 --SocksPort 127.0.0.1:9050
+
 # 替换配置文件中的 UUID
 sed -i "s/PASTE_YOUR_UUID_HERE/$UUID/g" config.json
 
